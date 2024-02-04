@@ -1,0 +1,41 @@
+.expense-tracker {
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  height: 100vh;
+}
+.app-logo {
+  background-color: #bc006a;
+  color: aliceblue;
+  padding: 0.7rem;
+}
+.profile-photo {
+  border-radius: 50%;
+}
+.balance,
+.income,
+.expenses {
+  background-color: aliceblue;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 30%;
+}
+.balance h4,
+.income h4,
+.expenses h4 {
+  background-color: rgb(26, 0, 0);
+  color: white;
+  padding: 10px;
+}

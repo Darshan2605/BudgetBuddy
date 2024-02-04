@@ -1,0 +1,36 @@
+.tr-page {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
+  gap: 2rem;
+}
+.showTr {
+  height: 60%;
+  width: 90%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: end;
+}
